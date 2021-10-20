@@ -14,8 +14,8 @@ body {
 }
 
 #emoji-container span {
-    margin: 10px;
-    font-size: 60px;
+    margin: 8px;
+    font-size: 20px;
 }
 
 #push-btn,
@@ -53,6 +53,11 @@ button {
     padding: 4px 10px;
     border-radius: 6px;
     margin: 0 auto;
+    cursor: pointer;
+}
+
+button:active {
+    border: 2px solid #80D87F;
 }
 
 .buttons-wrapper {
